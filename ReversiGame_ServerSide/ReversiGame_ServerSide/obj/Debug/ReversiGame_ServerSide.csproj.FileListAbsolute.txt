@@ -1,0 +1,12 @@
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.dll.config
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.dll
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.pdb
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.dll
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.pdb
+E:\dropbox\Dropbox\MDW2013-group7\chen_v\project_chen\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.csprojResolveAssemblyReference.cache
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.dll
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.pdb
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.dll.config
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.dll
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\bin\Debug\ReversiGame_ServerSide.pdb
+C:\Users\Desire\Documents\Block8\ReversiGame_ServerSide\ReversiGame_ServerSide\obj\Debug\ReversiGame_ServerSide.csprojResolveAssemblyReference.cache
