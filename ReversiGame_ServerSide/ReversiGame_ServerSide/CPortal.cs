@@ -25,40 +25,46 @@ namespace ReversiGame_ServerSidePortal
         /// <returns> true </returns>
         public void connected()
         {
+            listID.Add("test ");
             IPortalCallback callback = OperationContext.Current.GetCallbackChannel<IPortalCallback>();
-            callback.ConnectedCAllback(listID);
+            //callback.ConnectedCAllback(listID);
+            callback.CconnectPlayer(listID);
 
         }
 
-        public string connectAsMember(string username, string password)
+        public void connectAsMember(string username, string password)
         {
-            string connect = "wrong username or passWord"; ;
-
+            
+            string connect = "wrong username or passWord";
             foreach (PlayerMember p in listPlayerMbr)
             {
                 if ((p.userName == username) && (p.password == password))
                 {
+                    IPortalCallback callback = OperationContext.Current.GetCallbackChannel<IPortalCallback>();
                     if (p.IsLogIN)
                     {
-                        connect = "you are alreday online!";
+                        callback.ConnectedCAllback("you are alreday online!");
                     }
                     else
                     {
                         p.IsLogIN = true;
                         listID.Add(p.userName);
-                        //IPortalCallback callback = OperationContext.Current.GetCallbackChannel<IPortalCallback>();
-                        //callback.CconnectPlayer(listID);
-                        //refreshList();
-                        connect = "you are connected! you can play now!";
+                      callback.ConnectedCAllback("you are connected! you can play now!");
+
+                        callback.CconnectPlayer(listID);
+                       // refreshList(callback);
                     }
+                    break;
+
                 }
+                
             }
-            return connect;
+            // return connect;
         }
 
-        public void refreshList()
+        public void refreshList(IPortalCallback callback)
         {
-            
+            callback.CconnectPlayer(listID);
             //List<string> tempList;
 
             //    for (int i = 0; i < listPlayerMbr.Count; i++)

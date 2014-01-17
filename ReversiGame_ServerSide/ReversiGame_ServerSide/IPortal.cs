@@ -15,8 +15,8 @@ namespace ReversiGame_ServerSidePortal
         [OperationContract(IsOneWay = true)]
         void connected();
 
-        [OperationContract]
-        string connectAsMember(string username, string password);
+        [OperationContract (IsOneWay = true)]
+        void connectAsMember(string username, string password);
 
         [OperationContract]
         string creatAccount(string username, string password);
@@ -69,7 +69,7 @@ namespace ReversiGame_ServerSidePortal
         void IsTypingCallback();
 
         [OperationContract(IsOneWay = true)]
-        void ConnectedCAllback(List<string> list);
+        void ConnectedCAllback(string logInfo);
 
         [OperationContract(IsOneWay = true)]
          void CconnectPlayer(List<string> list);
